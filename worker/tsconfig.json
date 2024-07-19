@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["ES2019", "WebWorker", "dom"],
+    "rootDir": "./src",
+    "jsx": "react",
+    "outDir": "./lib",
+    "module": "ESNext",
+    "declaration": true,
+    "moduleResolution": "Bundler",
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "ES6"
+  },
+  "include": [
+    "src/**/*.ts", 
+    "node_modules/**/*.js"
+  ]
+}
